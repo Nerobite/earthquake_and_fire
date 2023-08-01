@@ -34,6 +34,6 @@ data = [{
 title_json = title_eq['title']
 my_layout = Layout(title = title_json)
 fig = {'data' : data, 'layout' : my_layout}
-offline.plot(fig, filename = 'global_earthquakes.html')
+offline.plot(fig, filename = 'global_earthquakes_1h.html')
 
 
